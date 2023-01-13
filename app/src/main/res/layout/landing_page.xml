@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgdark"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="-73dp"
+        android:src="@drawable/tunlogo" />
+
+    <Button
+        android:id="@+id/btnDaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="409dp"
+        android:width="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:backgroundTintMode="add"
+        android:backgroundTint="@color/white"
+        android:text="Daftar"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDaftar"
+        android:layout_alignEnd="@id/btnDaftar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="0dp"
+        android:width="150dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/primaryColor"
+        android:text="Log In"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/blur_landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="309dp"
+        android:background="@drawable/blur" />
+
+    <View
+        android:id="@+id/blur_landing_page2"
+        android:layout_width="37dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="374dp"
+        android:layout_marginTop="745dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/blurpetak" />
+
+    <View
+        android:id="@+id/blur_landing_page3"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="741dp"
+        android:layout_marginBottom="-6dp"
+        android:background="@drawable/blurpetak" />
+
+</RelativeLayout>
