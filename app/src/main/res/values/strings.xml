@@ -2,5 +2,14 @@
     <string name="app_name">TunTun</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_akun_daftar">
+        Belum Punya Akun?
+        <font color="#0192FA"><b>Daftar Sekarang</b></font>
+    </string>
+
+    <string name="regis_punya_akun">
+        Sudah Punya Akun?
+        <font color="#0192FA"><b>Log In Sekarang</b></font>
+    </string>
 
 </resources>

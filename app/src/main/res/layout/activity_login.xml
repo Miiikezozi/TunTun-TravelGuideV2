@@ -6,7 +6,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/bgdark"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
 
     <ImageView
@@ -56,7 +56,7 @@
             android:paddingLeft="20dp" />
 
         <Button
-            android:id="@+id/l_button_1"
+            android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -65,18 +65,18 @@
             android:width="150dp"
             android:background="@drawable/button_shape"
             android:backgroundTintMode="add"
-            android:text="Daftar"
+            android:text="Log In"
             android:textSize="18dp" />
 
         <TextView
             android:id="@+id/lg_have_account"
+            style="@style/SubTitle"
+            android:text="@string/login_akun_daftar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Belum punya akun? Daftar Sekarang"
-            android:textColor="@color/primaryColor"
-            android:textStyle="bold"
             android:layout_marginTop="10dp"
-            android:textAlignment="textEnd" />
+            android:textAlignment="textEnd"
+            />
     </LinearLayout>
 
     <View
